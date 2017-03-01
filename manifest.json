@@ -1,0 +1,22 @@
+{
+"name": "Momentum-Clone",
+"start_url": "./index.html",
+"display": "browser",
+"description": "Increase Productivity by personalizing your new-tab with a dashboard with a daily inspirational photo and todos list",
+"version": "1.0.0",
+
+"manifest_version": 2,
+
+
+"browser_action": {
+"default_icon": "icon.png",
+"default_popup": "popup.html"
+},
+
+"permission": [
+	"tabs",
+	"storage",
+	"wallpaper"
+]
+
+}
